@@ -11,9 +11,9 @@
   --primary: #37a9e1;
 }
 
-.section-header {
+/* .section-header {
   text-align: center;
-}
+} */
 
 .section-header h2 {
   font-size: 28px;
@@ -21,10 +21,10 @@
   margin-bottom: 16px;
 }
 
-.section-header hr {
+/* .section-header hr {
   border: 1px solid #fff;
   width: 56px;
-}
+} */
 
 .bg-gradient_solid {
   background: var(--primary-gradient);
@@ -131,4 +131,40 @@
   .steps .steps-container:nth-child(even) {
     left: 0;
   }
+}
+
+/* Projects Page */
+
+.description a {
+  text-decoration: none;
+}
+
+.description .technologies dd {
+  margin-left: 25px;
+}
+
+.description {
+  float : left;
+}
+
+.image {
+  float : right;
+  height: 95%;
+}
+
+/* Skills Page */
+
+/* #skills {
+  height: 90vh;
+} */
+
+.icons i {
+  margin: 10px;
+}
+
+.icons img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  margin-bottom: 27px;
 }
