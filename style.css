@@ -1,11 +1,45 @@
-#showcase {
-  background: url('img/adrien-olichon-RCAhiGJsUUE-unsplash.jpg') no-repeat center center/cover;
-  height: 100vh;
+/* Home */
+:root {
+  --bg-green: rgb(178, 254, 225);
+  --bg-content: rgb(222, 222, 222);
 }
 
-#presentation h1 {
-  
+body {
+  font-family: 'Mate', serif;
 }
+
+a {
+  text-decoration: none;
+  color: var(--bg-green);
+}
+
+.font {
+  font-family: 'Times New Roman', Times, serif !important;
+}
+.bg-green {
+  background: var(--bg-green);
+}
+
+.radius-5 {
+  border-radius: 14px;
+}
+
+.radius-3 {
+  border-radius: 8px;
+}
+
+.preview {
+  font-size: 15px;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+.content {
+  background: var(--bg-content);
+}
+
 /* Experience */
 :root {
   --primary: #37a9e1;
