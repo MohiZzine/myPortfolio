@@ -13,9 +13,6 @@ a {
   color: var(--bg-green);
 }
 
-.font {
-  font-family: 'Times New Roman', Times, serif !important;
-}
 .bg-green {
   background: var(--bg-green);
 }
