@@ -2,6 +2,25 @@
 :root {
   --bg-green: rgb(178, 254, 225);
   --bg-content: rgb(222, 222, 222);
+  --pink: #d63384;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.title {
+  color: #af1111;
+  font-weight: 600;
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.side {
+  background: #c54646;
 }
 
 html {

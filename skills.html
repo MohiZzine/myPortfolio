@@ -36,14 +36,6 @@
           <li class="nav-item">
             <a href="projects.html" class="nav-link">Projects</a>
           </li>
-          <li class="nav-item dropdown">
-            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              About
-            </button>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">CV</a></li>
-            </ul>
-          </li>  
         </ul>
       </div>
     </div>
@@ -52,52 +44,71 @@
   <!-- Skills -->
   <section class="bg-dark text-light p-4" id="skills">
     <div class="container-md">
-      <div class="bg-info-subtle text-dark-emphasis text-center text-sm-start radius-5 mx-5 p-4">
-        <h1 class="mate"><a href="#" class="link-primary mate mb-3">Skills</a></h1>
-        <div class="container-md radius-3 border-black content preview prog-languages">
-          <div class="section">
-            <h2 class="text-primary mt-md-5">LANGUAGES</h2>
-            <ul class="lead lh-lg">
-              <li>Programming Languages: 
-                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" rel="noopener noreferrer" class="link-primary"> C/</a><a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank" rel="noopener noreferrer" class="link-primary">C++</a>, Java, JavaScript (ES6), Python</li>
-              <li>Markup Languages: HTML5</li>
-              <li>Frameworks: JavaFX, Bootstrap, ReactJs</li>
-              <li>Styling: CSS3</li>
-            </ul>
-            <div class="icons text-center text-sm-start">
-              <i class="fa-brands fa-java fa-3x text-danger"></i>
-              <img src="img/languages/python.png" alt="Python">
-              <img src="img/languages/c-.png" alt="C++">
-              <img src="img/languages/html-5.png" alt="HTML5">
-              <img src="img/languages/css-3.png" alt="CSS3">
-              <img src="img/languages/bootstrap.png" alt="Bootstrap">
+      <div class="content bg-info-subtle text-dark-emphasis text-center text-sm-start radius-5 mx-5 p-4">
+        <div class="col-12 col-md-3 order-md-last">
+          <div id="side">
+            <nav class="navbar-dark d-md-none navbar">
+              <div class="navbar-brand" id="navtitle">
+                <code>web.evanchen.cc</code>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedContent" aria-controls="collapsedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-light navbar-toggler-icon"></span>
+              </button>
+            </nav>
+            <div class="d-md-block collapse show side" id="collapsedContent">
+              <h4 class="pink"><a href="index.html">About</a></h4>
+              <ul>
+                <li><a href="" target="_blank" rel="noopener noreferrer">CV</a></li>
+              </ul>
             </div>
           </div>
-          <div class="section">
-            <h2 class="text-primary mt-md-1">LIBRARIES</h2>
-            <ul class="lead lh-lg">
-              <li>Python Modules: Pandas, NumPy, Scikit-learn, Matplotlib, Tkinter</li>
-              <li>JavaScript DOM Manipulation</li>
-              <li>Git/Github: Command line</li>
-            </ul>
-            <div class="icons text-center text-sm-start">
-              <img src="img/languages/js.png" alt="JavaScript">
-              <img src="img/languages/atom.png" alt="ReactJs">
-              <img src="img/languages/deep-learning.png" alt="Deep Leaning">
-              <img src="img/languages/github.png" alt="Github">
+        </div>
+        <div class="col-12 col-md-9 order-md-first">
+          <h1 class="mate"><a href="#" class="link-primary mate mb-3">Skills</a></h1>
+          <div class="container-md radius-3 border-black content preview prog-languages">
+            <div class="section">
+              <h2 class="text-primary mt-md-5">Programming</h2>
+              <ul class="lead lh-lg">
+                <li><strong class="title">Programming Languages:</strong> 
+                  <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" rel="noopener noreferrer" class="link-primary"> C/</a><a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank" rel="noopener noreferrer" class="link-primary">C++</a>, Java, JavaScript (ES6), Python</li>
+                <li><strong class="title">Web Development & Databases Languages:</strong> HTML5, XML, CSS3, PHP, SQL, MySQL</li>
+                <li><strong class="title">Frameworks:</strong> JavaFX, Bootstrap, ReactJs</li>
+              </ul>
+              <div class="icons text-center">
+                <i class="fa-brands fa-java fa-3x text-danger"></i>
+                <img src="img/languages/python.png" alt="Python">
+                <img src="img/languages/c-.png" alt="C++">
+                <img src="img/languages/html-5.png" alt="HTML5">
+                <img src="img/languages/css-3.png" alt="CSS3">
+                <img src="img/languages/bootstrap.png" alt="Bootstrap">
+              </div>
             </div>
-          </div>
-          <div class="section">
-            <h2 class="text-primary mt-md-1">PROBLEM SOLVING SKILLS</h2>
-            <ul class="lead lh-lg">
-              <li>National Mathematics Olympiad Competitor</li>
-              <li>Knowledge in Linear Algebra, Number Theory and Geometry (Euclidiean, Complex and projective geometry), Combinatorics and Probabilty</li>
-              <li>Machine Learning & AI</li>
-            </ul>
-            <div class="icons text-center text-sm-start">
-              <img src="img/languages/gold-medal.png" alt="Gold Medal">
-              <img src="img/languages/block.png" alt="Geometry">
-              <img src="img/languages/combinatorics.png" alt="Combinatorics">
+            <div class="section">
+              <h2 class="text-primary mt-md-1">Libraries</h2>
+              <ul class="lead lh-lg">
+                <li><strong class="title">Python Modules:</strong> Pandas, NumPy, Scikit-learn, Matplotlib, Tkinter</li>
+                <li><strong class="title">JavaScript:</strong> DOM Manipulation</li>
+                <li><strong class="title">Git/Github:</strong> Command line</li>
+              </ul>
+              <div class="icons text-center">
+                <img src="img/languages/js.png" alt="JavaScript">
+                <img src="img/languages/atom.png" alt="ReactJs">
+                <img src="img/languages/deep-learning.png" alt="Deep Leaning">
+                <img src="img/languages/github.png" alt="Github">
+              </div>
+            </div>
+            <div class="section">
+              <h2 class="text-primary mt-md-1">Problem Solving Skills</h2>
+              <ul class="lead lh-lg">
+                <li><strong class="title">National Mathematics Olympiad Competitor</strong></li>
+                <li><strong class="title">Proficiency:</strong> Linear Algebra, Number Theory and Geometry (Euclidiean, Complex and projective geometry), Combinatorics and Probabilty</li>
+                <li><strong class="title">Machine Learning & AI</strong></li>
+              </ul>
+              <div class="icons text-center">
+                <img src="img/languages/gold-medal.png" alt="Gold Medal">
+                <img src="img/languages/block.png" alt="Geometry">
+                <img src="img/languages/combinatorics.png" alt="Combinatorics">
+              </div>
             </div>
           </div>
         </div>
