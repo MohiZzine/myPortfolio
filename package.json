@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/MohiZzine/myPortfolio/issues"
   },
-  "homepage": "https://MohiZzine.github.io.mohifarid",
+  "homepage": "https://MohiZzine.github.io/mohifarid",
   "dependencies": {
     "gh-pages": "^5.0.0"
   }
