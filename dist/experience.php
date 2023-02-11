@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Experience</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 sticky-top">
@@ -51,7 +54,8 @@
             <div class="steps">
               <div class="steps-container">
                 <div class="content">
-                  <h2 class="lead text-center">Participated in the Global Quarantine Mathematical Olympiad Juniors Section (GQMO)</h2>
+                  <h2 class="lead text-center">Participated in the Global Quarantine Mathematical Olympiad Juniors
+                    Section (GQMO)</h2>
                   <p>Due to COVID restrictions, the friendly-competition was
                     conducted online, scored 21 / 42 points possible,
                     equivalent to a "virtual" bronze medal.
@@ -64,8 +68,9 @@
                 <div class="content">
                   <h2 class="text-center">Silver Medal in the Arabic Mathematical
                     Olympiad (AMO)
-                    </h2>
-                  <p>Scored 25 out of 40 points in the Arabic Mathematical Olympiad representing Morocco, equivalent to a Silver medal.
+                  </h2>
+                  <p>Scored 25 out of 40 points in the Arabic Mathematical Olympiad representing Morocco, equivalent to
+                    a Silver medal.
                   </p>
                 </div>
                 <i class="step-line"></i>
@@ -73,12 +78,14 @@
               </div>
               <div class="steps-container">
                 <div class="content">
-                  <h2 class="text-center">Officially represented Morocco in the Asian Pacific Mathematical Olympiad (APMO)
+                  <h2 class="text-center">Officially represented Morocco in the Asian Pacific Mathematical Olympiad
+                    (APMO)
                   </h2>
                   <p>Scored 4 / 35 in the prestigious Asian Pacific
                     Mathematical Olympiad representing Morocco,
-                    <a href="https://www.apmoofficial.org/country_report/MAR/2021" target="_blank" rel="noopener noreferrer" class="link-primary">ranked Top 10 in the Moroccan Team.</a> 
-                    </p>
+                    <a href="https://www.apmoofficial.org/country_report/MAR/2021" target="_blank"
+                      rel="noopener noreferrer" class="link-primary">ranked Top 10 in the Moroccan Team.</a>
+                  </p>
                 </div>
                 <i class="step-line"></i>
                 <div class="date text-center">April 2021</div>
@@ -87,7 +94,7 @@
                 <div class="content">
                   <h2 class="text-center">Silver Medal in the Pan-African
                     Mathematical Olympiad (PAMO)
-                    </h2>
+                  </h2>
                   <p>Scored 24 / 42 in the most competitive African
                     Mathematical event representing Morocco.</p>
                 </div>
@@ -110,7 +117,8 @@
                   <h2 class="text-center">Fully Funded Excellence Scholarship at
                     Mohammed VI Polytechnical University
                   </h2>
-                  <p>Full Scholarship that covers all univeristy related fees based on academic excellence in the UM6P School of Computer Science.</p>
+                  <p>Full Scholarship that covers all univeristy related fees based on academic excellence in the UM6P
+                    School of Computer Science.</p>
                 </div>
                 <i class="step-line"></i>
                 <div class="date text-center">Aug 2021</div>
@@ -123,34 +131,12 @@
   </div>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center p-2 position-relative">
-    <div class="container-md">
-      <div class="d-md-flex align-items-start justify-content-evenly my-4">
-        <div class="copyright">
-          <p class="lead">
-            Copyright &copy; 2023 Mohieddine Farid Portfolio
-          </p>
-        </div>
-        <div class="social-media">
-          <a href="#"><i class="bi bi-facebook text-secondary h1 mx-2 link-primary"></i></a>
-          <a href="https://github.com/MohiZzine"><i class="bi bi-github text-secondary h1 mx-2 my-4 link-primary"></i></a>
-          <a href="https://www.linkedin.com/in/mohieddine-f-a54735228/"><i class="bi bi-linkedin text-secondary h1 mx-2 my-4 link-primary"></i></a>
-          <a href="https://www.instagram.com/faridmohieddine/"><i class="bi bi-instagram text-secondary h1 mx-2 my-4 link-primary"></i></a>
-        </div>
-      </div>
-      <div class="arrow">
-        <a href="#" class="position-absolute bottom-0 end-0 px-5 py-4">
-          <i class="bi bi-arrow-up-circle text-bg-dark h1"></i>
-        </a>
-      </div>
-      <div class="updated position-absolute bottom-0 start-0 px-sm-5 d-block">
-        Updated Tue 31 Jan 2023, 22:29:45 UTC by <a href="#" target="_blank" rel="noopener noreferrer" class="link-primary">
-          <code>2e30aa58ce60</code>
-        </a>
-      </div>
-    </div>
-  </footer>
+  <?php include "footer.html"?>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
