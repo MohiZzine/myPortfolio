@@ -24,19 +24,19 @@
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link active">Education</a>
           </li>
           <li class="nav-items">
-            <a href="experience.html" class="nav-link">Experience</a>
+            <a href="experience.php" class="nav-link">Experience</a>
           </li>
           <li class="nav-item">
-            <a href="skills.html" class="nav-link">Skills</a>
+            <a href="skills.php" class="nav-link">Skills</a>
           </li>
           <li class="nav-item">
-            <a href="projects.html" class="nav-link">Projects</a>
+            <a href="projects.php" class="nav-link">Projects</a>
           </li>
         </ul>
       </div>
