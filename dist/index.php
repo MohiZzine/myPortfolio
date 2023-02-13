@@ -50,9 +50,9 @@
     <div class="bg-info-subtle text-dark-emphasis text-center text-sm-start radius-5 mx-5 p-4">
       <h2><a href="#" class="link-primary mb-5">Homepage of Mohieddine Farid</a></h2>
       <div class="container-md radius-3 border-black content">
-        <div class="d-flex align-items-center justify-content-center m-md-3">
-          <img src="img/Medal.png" class="img-fluid w-100" alt="Mohieddine Farid">
-          <div class="d-flex flex-column gap-2 preview p-4">
+        <div class="d-md-flex align-items-center justify-content-center m-md-3">
+          <img src="img/Medal.png" class="mx-auto d-block p-3 w-100 w-md-75" alt="Mohieddine Farid">
+          <div class="d-flex flex-column gap-2 preview p-2">
             <p class="lead text-danger-emphasis">“It’s hard to do a really good job on anything you don’t think
               about in the shower.” — Paul Graham</p>
             <p>I currently major computer science, I'm passionate about technology and human behavior, hard-worker and fast learner. I am hugely interested in Web Development (both Frontend and Backend). I love creating websites, doing random maths. I have some experience programming in many different languages such as Java, C/C++, Python and last but not least... Javascript.</p>
