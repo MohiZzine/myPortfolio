@@ -13,34 +13,10 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 sticky-top">
-    <div class="container-md">
-      <a href="#" class="navbar-brand mx-4 mx-md-0">Mohieddine Farid</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="index.php" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="education.php" class="nav-link">Education</a>
-          </li>
-          <li class="nav-items">
-            <a href="experience.php" class="nav-link">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="projects.php" class="nav-link">Projects</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
+  <?php 
+  $current = "skills";
+  include 'header.php'
+   ?>
   <!-- Skills -->
   <section class="bg-dark text-light p-4" id="skills">
     <div class="container-md preview">
@@ -97,7 +73,7 @@
   </section>
 
   <!-- Footer -->
-  <?php include "footer.html"?>
+  <?php include "footer.php"?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
